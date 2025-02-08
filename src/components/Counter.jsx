@@ -10,7 +10,7 @@ class Counter extends Component {
     console.log(this.props);
     return (
       <>
-        <h1>{count}</h1>
+        <h1>count: {count}</h1>
         <button onClick={increase}>+</button>
         <button onClick={decrease}>-</button>
         <button onClick={reset}>reset</button>
